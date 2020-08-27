@@ -9,7 +9,8 @@ Problema:
 	para poder escribirla como si fuera una dirección IP? Imprímelas.
 	
 	En palabras simples: Genera todas las formas distintas de insertar 3 puntos en
-	en una cadena, tal que no haya 2 puntos juntos.
+	en una cadena, tal que no haya 2 puntos juntos, y junto a cada punto hayan digitos
+	a sus dos costados.
 
 	Diseñe un algoritmo de fuerza bruta cualquiera que solucione este problema.
 	Diseñe un algoritmo con backtracking que solucione este problema.
