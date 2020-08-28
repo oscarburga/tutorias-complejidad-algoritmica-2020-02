@@ -7,7 +7,7 @@ def backtracking():
 	### Lo óptimo sería usar una mascara de bits y una matriz 2D, pero eso escapa de los temas del curso
 	### Para esta ocasión, usaremos un arreglo de sets para hacer dicha verificación
 
-	vis = [ set([]), set([]) ] ## Arreglo de 2 sets
+	vis = [ set([]), set([]) ] ## Arreglo sets
 	path = []
 
 	def can(lado, obj): ### Funcion que me dice si puedo ir a un estado
@@ -37,16 +37,17 @@ def backtracking():
 
 		### Opción 2: Cruzar llevando algún objeto
 		for i in range(3):
-			obj[i] = not obj[i]
-			aux = tuple(obj)
-			if can(not lado, obj): 
-				vis[not lado].add(aux)
-				ret = bt(not lado, obj)
-				if ret: ### Si encontré camino, añado el estado a la respuesta
-					path.append([not lado, aux])
-					return True
-				vis[not lado].remove(aux)
-			obj[i] = not obj[i]
+			if obj[i] == lado:
+				obj[i] = not obj[i]
+				aux = tuple(obj)
+				if can(not lado, obj): 
+					vis[not lado].add(aux)
+					ret = bt(not lado, obj)
+					if ret: ### Si encontré camino, añado el estado a la respuesta
+						path.append([not lado, aux])
+						return True
+					vis[not lado].remove(aux)
+				obj[i] = not obj[i]
 
 		return False ### No encontré camino, retorno False
 	return bt(), path
