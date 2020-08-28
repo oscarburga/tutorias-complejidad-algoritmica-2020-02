@@ -36,6 +36,7 @@ def backtracking():
 			vis[not lado].remove(aux)
 
 		### Opción 2: Cruzar llevando algún objeto
+		### Bug pendiente de corregir: validar que el objeto que me estoy llevando esté en el mismo lado que el pastor
 		for i in range(3):
 			obj[i] = not obj[i]
 			aux = tuple(obj)
