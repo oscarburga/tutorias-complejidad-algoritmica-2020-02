@@ -1,3 +1,5 @@
+### Ver archivo LC-max-subarray.py para el link al problema
+
 def merge(a, l, mid, r):
 	cur = a[mid]
 	maxl = cur
