@@ -1,0 +1,12 @@
+El problema y su solución estan bien explicados en este artículo.
+
+La parte importante es entender por qué el merge, que aparentemente es O(N^2), resulta
+ser solo O(N). La prueba no es muy complicada, y está explicada detalladamente en la parte de 
+"Evaluation of the asymptotics".
+
+Probablemente necesiten leer el artículo unas 2-3 veces para entenderlo bien (al menos la parte 
+de la prueba), pero por suerte no es muy largo.
+
+https://cp-algorithms.com/geometry/nearest_points.html
+
+De igual forma, al final de la página hay enlaces a problemas de práctica.
