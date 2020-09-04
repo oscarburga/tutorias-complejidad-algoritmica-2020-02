@@ -8,5 +8,3 @@ Probablemente necesiten leer el artículo unas 2-3 veces para entenderlo bien (a
 de la prueba), pero por suerte no es muy largo.
 
 https://cp-algorithms.com/geometry/nearest_points.html
-
-De igual forma, al final de la página hay enlaces a problemas de práctica.
