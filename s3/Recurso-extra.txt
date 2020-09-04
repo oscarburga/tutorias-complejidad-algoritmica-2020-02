@@ -1,0 +1,9 @@
+Buen material de Divide y Vencerás. ¡Está en español!
+
+Se explica: 
+* Merge Sort
+* Quick Sort
+* Max Subarray Sum en O(N) con Divide y Vencerás (lo mencioné en clase)
+* Busqueda binaria
+
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2004%20-%20Divide%20and%20Conquer.ipynb
