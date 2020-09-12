@@ -1,3 +1,4 @@
+### Este problema queda pendiente para el próximo taller
 '''
 Link: https://cses.fi/problemset/task/1192
 
