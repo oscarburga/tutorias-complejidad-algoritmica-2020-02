@@ -1,3 +1,4 @@
+// Este problema queda pendiente para el siguiente taller
 // https://cses.fi/problemset/task/1193/
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,3 +1,4 @@
+// Solución del Counting Rooms en C++ (si pasa el tiempo límite)
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
