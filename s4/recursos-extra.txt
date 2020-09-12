@@ -1,0 +1,14 @@
+Material de GPC-UPC: Clase 10 - Representación de grafos y BFS
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2010%20-%20Grafos%20I.ipynb
+
+Material de GPC-UPC: Clase 11 - DFS 
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2011%20-%20Grafos%20II.ipynb
+
+Libro 'Introduction to Algorithms 3rd Edition'
+Capítulo 6, sección 22 'Elementary Graph Algorithms'
+	* 22.1 Representations of graphs
+	* 22.2 Breadth-first search (BFS)
+	* 22.3 Depth-first search (DFS)
+	Para más adelante:
+	* 22.4 Topological Sort 
+	* 22.5 Strongly Connected Components
