@@ -34,7 +34,7 @@ def bfs(r, c): #row, column
 	q.append((r, c))
 	vis[r][c] = True
 	while len(q) > 0:
-		x, y = q.pop() ## x: fila, y:columna
+		x, y = q.popleft() ## x: fila, y:columna
 		for i in range(4):
 			nx = x + dx[i]
 			ny = y + dy[i]
