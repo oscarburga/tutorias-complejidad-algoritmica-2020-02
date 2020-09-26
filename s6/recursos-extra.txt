@@ -1,0 +1,16 @@
+CP Algorithms: Topological Sort
+https://cp-algorithms.com/graph/topological-sort.html
+
+CP Algorithms: Strongly Connected Components and Condensation Graph
+https://cp-algorithms.com/graph/strongly-connected-components.html
+
+GPC UPC Senior - Clase 13: Componentes Fuertemente Conexas y ETR
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2013%20-%20Grafos%20IV.ipynb
+
+Libro 'Introduction to Algorithms 3rd Edition'
+Capítulo 6, sección 22 'Elementary Graph Algorithms'
+	* 22.1 Representations of graphs
+	* 22.2 Breadth-first search (BFS)
+	* 22.3 Depth-first search (DFS)
+	* 22.4 Topological Sort 
+	* 22.5 Strongly Connected Components
