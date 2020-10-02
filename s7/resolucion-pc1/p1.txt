@@ -1,0 +1,55 @@
+En Facebook H.Q. están experimentando con una nueva función de listas de prioridad, cada
+usuario puede tener una lista de amigos prioritarios (P) con quienes pueden compartir una noticia.
+
+Imagine que cada vez que un usuario descubre algo interesante, se lo comparte a todos sus
+amigos P al día­siguiente. De modo que en el primer día, todos sus amigos conocen, en el
+segundo día, los amigos de los amigos comparten la canción, en el tercero, los amigos P de los
+amigos P de los amigos P reciben la nueva canción y así­ hasta el final.
+
+Tu misión, si decides aceptarla, es determinar lo siguiente:
+
+* el máximo diario, el cual es el número más grande de usuarios que en un solo día­a
+  reciben la noticia compartida.
+
+* el primer dia, el cual es el primer día­a en el que el máximo diario ocurre.
+
+INPUT
+=====
+
+La primera línea de la entrada contiene el número E de usuarios (1 <= E <= 2500). los 
+usuarios son numerados de 0 a E - 1.
+
+Cada una de las siguentes E líneas contienen el conjunto de amigos P de un usuario. Un conjunto
+de amigos P contiene el número N de amigos P (0 <= N < 15), seguido de N enteros distintos que 
+representan a los amigos P del usuario. Todos los enteros separados por un espacio en blanco.
+
+La siguiente linea contiene un entero T (1 <= T < 60) el cual es el número de casos de prueba
+Las siguientes T líneas contienen un usuario, el cual representa el (único) usuario que
+descubre una novedad para compartir para el caso de prueba.
+
+OUTPUT
+======
+
+Por cada caso de prueba, mostrar 0 si solo el usuario que descubre la canción no tiene amigos P.
+M y D, donde M es el máximo diario y D es el primer dia de boom diario.
+
+Ejemplo de Input
+----------------
+6
+2 1 2
+2 3 4
+3 0 4 5
+1 4
+0
+2 0 2
+3
+5
+0
+4
+
+
+Ejemplo de Output
+-----------------
+2 1
+3 2
+0
