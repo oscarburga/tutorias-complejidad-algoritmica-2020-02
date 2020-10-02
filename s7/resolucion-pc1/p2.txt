@@ -1,0 +1,53 @@
+Una compañía de pesca busca detectar cardúmenes de atún, para ello recorre regiones
+rectangulares en el mar de una en una y crea una grilla que divide la el agua en porciones 
+cuadradas. Luego analiza cada porción por separado, usando equipos con sensores para 
+determinar si la porción contiene atunes.
+
+Una porción que contiene atunes se le llama bolsa. Si 2 bolsas son adyacentes, entonces
+forman parte del mismo grupo de atunes. Los grupos pueden ser muy grandes y
+pueden contener numerosas bolsas. Tu misión es determinar cuántos grupos de atunes están
+contenidos en una grilla.
+
+INPUT
+=====
+
+El archivo de entrada contiene una o más grillas. Cada una empieza con una línea que contiene
+M y N, el número de filas y columnas de dicha grilla, separadas por un espacio. Si M = 0, indica
+el final del archivo de entrada; de otro modo 1 <= m <= 100 y 1 <= n <= 100. A continuación
+siguen M líneas de N caracteres cada una (sin contar el salto de línea). Cada caracter
+corresponde a una porción, y puede ser #, representando que no hay atunes y F representando
+una bolsa.
+
+OUTPUT
+======
+
+Por cada grilla, mostrar el número de grupos de atunes distintos. Dos bolsas distintas son
+parte del mismo depósito si son adyacentes vertical, horizontal o diagonalmente. Un grupo de
+atunes no contendrá más de 100 bolsas.
+
+Ejemplo de Input
+================
+
+5 5
+####F
+#FF#F
+#F##F
+FFF#F
+FF##F
+1 8
+FF#####F
+1 1
+#
+3 5
+#F#F#
+##F##
+#F#F#
+0 0
+
+Ejemplo de Output
+=================
+
+2
+2
+0
+1
