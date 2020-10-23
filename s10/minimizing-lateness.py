@@ -1,5 +1,6 @@
 #Minimizing Lateness
 #Ojala consiga un link para la tutoria :(
+#Nota: No llegamos a ver este problema en clase, pero está en uno de los links que les dejé
 
 n = int(input())
 t, d = [0] * n, [0] * n

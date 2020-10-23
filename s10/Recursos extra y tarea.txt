@@ -1,0 +1,24 @@
+Problema de tarea (fácil):
+Link: https://codeforces.com/problemset/problem/1216/B
+
+Problema de tarea (más complicado, es posible que dé tiempo límite excedido en Python):
+Nota: Para ver el enunciado, clickeen el Download que les aparece y busquen el problema en el PDF,
+es uno de los últimos. Su código de solución debe leer input y escribir output a los archivos
+"student.in" y "student.out" respectivamente.
+Link: https://vjudge.net/problem/Gym-100113K
+
+Videos: Demostración por contradicción 
+
+https://www.youtube.com/watch?v=huGWXh4l1M0
+https://www.youtube.com/watch?v=sRDwsfNDXak
+
+Curso recomendado (gratuito, yo lo tomé): https://www.coursera.org/learn/mathematical-thinking
+
+Recursos de Greedy: 
+
+LEER MINIMIZING LATENESS, el problema que quedó pendiente en clase.
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2030%20-%20Greedy%20I.ipynb
+
+LEER EXCHANGE ARGUMENTS, es lo que hicimos hoy en clase.
+Dato curioso: Esta técnica aparece mucho combinada con programación dinámica (ie: ordenar para usar DP).
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2032%20-%20Greedy%20II.ipynb
