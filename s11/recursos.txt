@@ -1,0 +1,10 @@
+Minimum Spanning Trees
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2022%20-%20Grafos%20X.ipynb
+https://cp-algorithms.com/graph/mst_kruskal_with_dsu.html
+
+Estructura DSU/Union Find:
+https://cp-algorithms.com/data_structures/disjoint_set_union.html
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2023%20-%20Estructuras%20de%20Datos%20I.ipynb
+https://codeforces.com/edu/course/2/lesson/7 -- OJO: Necesitan cuenta para acceder a los videos y el material de DSU
+https://www.youtube.com/watch?v=vq5u09x2Kzo
+
