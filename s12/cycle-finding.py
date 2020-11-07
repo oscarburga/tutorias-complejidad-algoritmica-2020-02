@@ -19,7 +19,7 @@ for i in range(n): # N iteraciones, una de más para ver si existe ciclo negativ
 			last = v
 
 if last == -1: #si no hice ninguna relajacion en la iteracion de más, no hay ciclo
-	print("NO")
+	print("NO") #no hay ciclo negativo
 else:
 	x = last
 	#Retroceder N veces, para garantizar que X esté dentro del ciclo
