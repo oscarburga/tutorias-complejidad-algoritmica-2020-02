@@ -1,0 +1,16 @@
+Propiedades de Shortest Paths + Bellman Ford:
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2014%20-%20Grafos%20V.ipynb
+https://cp-algorithms.com/graph/bellman_ford.html 
+
+
+Shortest Paths en DAGs + Dijkstra
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2015%20-%20Grafos%20VI.ipynb
+https://cp-algorithms.com/graph/dijkstra.html <- Dijkstra O(N^2)
+https://cp-algorithms.com/graph/dijkstra_sparse.html <- Dijkstra O(MlogN)
+
+Demostraciones de lemas de Shortest Paths:
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2016%20-%20Grafos%20VII.ipynb
+
+Shortest Path Trees + Grafos de restricción (aplicación interesante de Bellman-Ford)
+https://nbviewer.jupyter.org/github/racsosabe/Miscelanea/blob/master/UPC/Clase%2019%20-%20Grafos%20VIII.ipynb
+
