@@ -13,6 +13,8 @@ se utiliza en Floyd Warshall: Notar que solo se necesita el dp[i-1] para
 construir dp[i], por lo que podemos reducir el uso de memoria a O(X). La 
 complejidad temporal se mantiene en O(N*X)
 
+Nota: Igual hay 1 caso que da TLE en Python, también les dejo mi solución
+en C++ para que la revisen.
 '''
 #minima cantidad de monedas para sumar X
 #las monedas ya tienen denominacion fisica
