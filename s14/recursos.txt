@@ -1,0 +1,4 @@
+https://tc-arg.tk/pdfs/2020/maxflow.pdf
+https://cp-algorithms.com/graph/edmonds_karp.html
+
+Introduction to Algorithms 3rd Edition - Capitulo 26
