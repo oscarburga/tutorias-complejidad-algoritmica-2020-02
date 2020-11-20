@@ -1,5 +1,6 @@
 # https://cses.fi/problemset/task/1695/
 # Aplicación clásica: Corte mínimo en un grafo
+# También puede pensarse como el problema de Edge-Disjoint paths
 # Leer: Max-flow min-cut theorem al final de este link
 # https://cp-algorithms.com/graph/edmonds_karp.html 
 
